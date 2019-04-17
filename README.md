@@ -32,7 +32,7 @@ yarn add rc-org-chart
 ```jsx
 import OrgChart from 'rc-org-chart';
 
-ReactDOM.render(<DatePicker />, mountNode);
+ReactDOM.render(<OrgChart />, mountNode);
 ```
 
 引入样式：

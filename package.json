@@ -1,7 +1,7 @@
 {
-  "name": "@shisongyan/react-org-chart",
+  "name": "rc-org-chart",
   "files": ["lib"],
-  "version": "1.1.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
     "start": "umi dev",
