@@ -1,0 +1,42 @@
+@cls-prefix: cp-react-org-chart-table;
+
+
+:global {
+  .@{cls-prefix} {
+    border-spacing: 0;
+    user-select: none;
+    margin: 0 auto;
+    :global {
+      td {
+        vertical-align: top;
+        width: 50%;
+        padding: 0;
+      }
+  
+      .td-node {
+        padding: 1px;
+      }
+  
+      .lines {
+        height: 30px;
+  
+      }
+      
+      .down-line {
+        width: 2px;
+        background: #979797;
+        margin: 0 auto;
+        height: 30px;
+      }
+      .right-line {
+        border-right: 2px solid #979797;
+      }
+      .left-line {
+        border-left: 2px solid #979797;
+      }
+      .top-line {
+        border-top: 2px solid #979797;
+      }
+    }
+  }
+}

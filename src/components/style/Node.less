@@ -1,0 +1,71 @@
+
+
+@cls-prefix: cp-react-org-chart-node;
+
+:global {
+  .@{cls-prefix} {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    :global {
+      .span-wrapper {
+        overflow: auto;
+      }
+      .node-content {
+        padding: 5px;
+        border: 2px dashed transparent;
+        min-width: 130px;
+        z-index: 10;
+        .error {
+          font-size: 14px;
+          color: red;
+          position: absolute;
+          top: -20px;
+        }
+      }
+      .default-node-render {
+        min-width: 140px;
+        border-radius: 3px;
+        border: 1px solid #4C77BF;
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s;
+        
+        .id {
+          padding: 5px;
+          background: #4C77BF;
+          color: white;
+        }
+        .name {
+          padding: 5px;
+          background: white;
+        }
+      }
+
+
+
+  
+      .dragging {
+        background: yellow;
+      }
+      
+      .droppable {
+        border-color: rgba(0, 0, 225, .4);
+      }
+      
+      .willDropNode {
+        border-color: transparent;
+        background: #4C77BF;
+      }
+      
+      .didMount {
+        background: yellow;
+      }
+  
+      .disableDropNode {
+        border-color: red;
+      }
+    }
+  }
+}
+

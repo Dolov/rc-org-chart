@@ -1,0 +1,57 @@
+
+
+.nodeRender {
+  min-width: 140px;
+  border-radius: 3px;
+  border: 1px solid #4C77BF;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 0 0 10px #40A9FF;
+  }
+  :global {
+    .top {
+      height: 36px;
+      color: white;
+      font-size: 14px;
+      background: #4C77BF;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 12px;
+      .department {
+        white-space: nowrap;
+        margin-right: 12px;
+      }
+    }
+    .bottom {
+      padding: 3px 12px;
+      background: white;
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .title {
+        font-size: 14px;
+        color: rgba(0, 0, 0, .45);
+        margin-right: 4px;
+        white-space: nowrap;
+      }
+
+      .position {
+        white-space: nowrap;
+      }
+
+      .handleBar {
+        height: 100%;
+        vertical-align: bottom;
+        align-self: flex-end;
+        padding-bottom: 3px;
+        cursor: pointer;
+        
+      }
+    }
+  }
+}
