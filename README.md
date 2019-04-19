@@ -41,7 +41,7 @@ ReactDOM.render(<OrgChart />, mountNode);
 import 'rc-org-chart/lib/style';  
 ```
 ## 🍭 API
-| 成员 | 说明 | 类型 | 默认值 |
+| 属性 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
 | data | 组织结构数据 (必填项且每条数据必须有唯一 id) | array | [ ] |
 | pan | 图层是否允许拖动 | boolean | true |
@@ -51,8 +51,8 @@ import 'rc-org-chart/lib/style';
 | minZoom | 图层最大缩小比例 | number | 0.5 |
 | zoomStep | 缩放幅度 | number | 2 |
 | customDrag | 用户可根据具体的数据字段及业务场景制定节点拖拽规则，返回 true 则允许 drag 节点 添加到 drop 节点 | (dropProps, dragProps) => true | true |
-| nodeRender | 用户自定义节点的渲染 | props => <div>{props.name}</div> |  |
-| extraRender | 位于节点下部的自定义渲染 | props => <div>{props.name}</div> |  |
+| nodeRender | 用户自定义节点的渲染 | props => <div style="background:#999">{props.name}</div> |  |
+| extraRender | 位于节点下部的自定义渲染 | props => <div style="background:#999">{props.name}</div> |  |
 
 
 
