@@ -1,6 +1,8 @@
 {
   "name": "rc-org-chart",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
@@ -23,12 +25,12 @@
     "@babel/core": "^7.4.3",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-plugin-import": "^1.11.0",
     "@types/jest": "^23.3.12",
     "@types/react": "^16.7.18",
     "@types/react-dom": "^16.0.11",
     "@types/react-test-renderer": "^16.0.3",
     "babel-eslint": "^9.0.0",
+    "babel-plugin-import": "^1.11.0",
     "eslint": "^5.4.0",
     "eslint-config-umi": "^1.4.0",
     "eslint-plugin-flowtype": "^2.50.0",
@@ -43,7 +45,8 @@
     "tslint-react": "^3.6.0",
     "umi": "^2.6.1",
     "umi-plugin-react": "^1.6.0",
-    "umi-types": "^0.2.0"
+    "umi-types": "^0.2.0",
+    "webpack-chain": "^5.2.4"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
