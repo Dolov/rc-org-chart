@@ -5,6 +5,11 @@
   ],
   "version": "1.0.0",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dolov/react-org-chart"
+  },
+  "homepage": "http://example.shisongyan.top/react-org-chart/",
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
