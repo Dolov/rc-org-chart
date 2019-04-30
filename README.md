@@ -58,8 +58,8 @@ import 'rc-org-chart/lib/style';
 
 ## ⌨️ 本地开发
 ```bash
-$ git clone git@github.com:Dolov/react-org-chart.git
-$ cd react-org-chart
+$ git clone git@github.com:Dolov/rc-org-chart.git
+$ cd rc-org-chart
 $ npm install
 $ npm start
 ```

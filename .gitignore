@@ -16,3 +16,6 @@
 # umi
 .umi
 .umi-production
+
+#
+publish.sh
