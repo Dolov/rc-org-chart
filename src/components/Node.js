@@ -2,7 +2,6 @@ import React from 'react'
 import cls from 'classnames'
 import { Icon } from 'antd'
 import Context from './Context'
-import { S } from 'xmlchars/xml/1.0/ed5';
 
 const clsPrefix = 'cp-react-org-chart-node'
 
