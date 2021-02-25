@@ -6,7 +6,7 @@
 export default [
   {
     id: '001',
-    department: 'ClickPaas',
+    department: 'xixihaha',
     name: '天线宝宝',
     position: 'CEO',
     employees: 13,
