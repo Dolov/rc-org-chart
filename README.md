@@ -1,11 +1,6 @@
-<p align="center">
-  <a href="http://example.shisongyan.top/rc-org-chart/">
-    <img src="https://user-gold-cdn.xitu.io/2019/4/12/16a10d8dc669701e?w=2544&h=1206&f=png&s=546061">
-  </a>
-</p>
+![img](https://cdn.clickapaas.com/uPic/WX20231212-134204@2x.png)
 
 <h1 align="center">rc-org-chart</h1>
-
 
 <div align="center">
 基于 React 的组织结构组件
